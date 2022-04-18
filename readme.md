@@ -18,21 +18,21 @@
 
 # Experiments
 
-1. Make sure you satisfy the [environment](#Environment).
+1. Check the [environment](#Environment).
 
 2. Run the `.ipynb` file to reproduce our experiment results.
    1. Run [Code Architecture-Implementation](#Code-Architecture) for initialization.
    2. Run [Code Architecture-Results](#Code-Architecture) for results reproduction.
    3. Every method is coded independently and all the outputs are attached. Arguments can be editted in `args={...}` in every method. You can jump to any part of interest following the [Code Architecture-Results](#Code-Architecture).
 
-3. 16 GB GPU memory is preferred for reproducing results of complicated models based on GCN, and at least 24 GB GPU memory for complicated models on GAT. Hardwares we used includes NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB.
-
-4. **Notice**: There is an alarm that play sounds every time a model is finished training and evaluated. Please disable the code [Implementation-Functions-Alarm](#Code-Architecture) if you find it disturbing.
+3. **Notice**: 
+   1. 16 GB GPU memory is preferred for reproducing results of complicated models based on GCN, and at least 24 GB GPU memory for complicated models on GAT. Hardwares we used includes NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB.
+   2. There is an alarm that play sounds every time a model is finished training and evaluated. Please disable the code [Implementation-Functions-Alarm](#Code-Architecture) if you find it disturbing.
 
 # Code Architecture
 
     .
-####    ├── Implementation
+    ├── Implementation
     │   ├── Import Pakages
     │   ├── Dataset
     │   ├── Data Visualization
@@ -48,7 +48,7 @@
     |       ├── Data Preprocess
     |       ├── Node2Vec
     |       └── Main
-####    ├── Results
+    ├── Results
     │   ├── GCN
     |   │   ├── GCN
     |   │   ├── Residual_GCN
