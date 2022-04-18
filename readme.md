@@ -78,7 +78,7 @@ Residual GCN + Node2Vec + Label Reuse + C&S|72.22 ± 0.14|98.81 ± 0.02
 Residual GCN + C&S|73.06 ± 0.19|98.23 ± 0.02
 GAT|70.23 ± 0.17|73.34 ± 0.34
 Residual GAT|72.08 ± 0.45|77.66 ± 0.47
-Residual GAT+ Node2Vec|71.96 ± 0.32|80.19 ± 0.44
+Residual GAT + Node2Vec|71.96 ± 0.32|80.19 ± 0.44
 Residual GAT + Node2Vec + Label Reuse|71.59 ± 0.29|93.47 ± 1.01
 Residual GAT + Node2Vec + Label Reuse + C&S|72.26 ± 0.26|98.82 ± 0.01
-Residual GAT+ C&S|72.65 ± 0.22|98.24 ± 0.02
+Residual GAT + C&S|72.65 ± 0.22|98.24 ± 0.02
