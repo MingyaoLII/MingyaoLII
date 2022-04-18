@@ -6,6 +6,7 @@
     networkx                      2.6.3
     matplotlib                    3.5.1
     torch                         1.11.0
+    cuda-version                  11.3
     torch-cluster                 1.6.0
     torch-geometric               2.0.4
     torch-scatter                 2.0.9
@@ -14,7 +15,7 @@
 
 # Datasets
 
-[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) Downloaded/Used in the directory `'./data'` by running the **Dataset** part in our code.
+[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) Downloaded/Stored to use in the directory `'./data'` by running the **Dataset** part in our code.
 
 # Experiments
 
