@@ -19,7 +19,7 @@
 
 # Experiments
 
-1. Check the [environment](#Environment). If not, at least make sure `torch, cuda-version, torch-cluster, torch-geometric, torch-scatter, torch-sparse, torch-spline-conv` on your device works with each other.
+1. Check the [environment](#Environment). If not, at least make sure `torch, cuda-version, torch-cluster, torch-geometric, torch-scatter, torch-sparse, torch-spline-conv` on your device work with each other.
 
 2. Run the `.ipynb` file to reproduce our experiment results.
    1. Run [Code Architecture-Implementation](#Code-Architecture) for initialization, data visualization, models and functions implementation.
