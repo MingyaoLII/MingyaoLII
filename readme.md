@@ -13,13 +13,13 @@
     torch-sparse                  0.6.13
     torch-spline-conv             1.2.1
 
-# Datasets
+# Dataset
 
-[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) Downloaded/Stored for use in the directory `'./data'` by running the [Code Architecture-Implementation-Dataset](#Code-Architecture).
+[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) downloaded/saved for use in the directory `'./data'` by running [Code Architecture-Implementation-Dataset](#Code-Architecture).
 
 # Experiments
 
-1. Check the [environment](#Environment). If not, at least make sure `torch, cuda-version, torch-cluster, torch-geometric, torch-scatter, torch-sparse, torch-spline-conv` on your device work with each other.
+1. Check the [environment](#Environment).
 
 2. Run the `.ipynb` file to reproduce our experiment results.
    1. Run [Code Architecture-Implementation](#Code-Architecture) for initialization, data visualization, models and functions implementation.
