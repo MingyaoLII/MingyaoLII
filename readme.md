@@ -24,10 +24,10 @@
 2. Run the `.ipynb` file to reproduce our experiment results.
    1. Run [Code Architecture-Implementation](#Code-Architecture) for initialization, data visualization, models and functions implementation.
    2. Run [Code Architecture-Results](#Code-Architecture) for results reproduction.
-   3. Every method is coded independently and all the outputs are attached. Arguments can be editted in `args={...}` in every method. You can jump to any part of interest following the [Code Architecture-Results](#Code-Architecture).
+   3. Every method is coded independently and all the outputs are attached. Arguments in `args={...}`  can be edited in every method. You can jump to any part of interest following the [Code Architecture-Results](#Code-Architecture).
 
 3. **Notice**:
-   1. 16 GB GPU memory is preferred for reproducing results of complicated models based on GCN, and at least 24 GB GPU memory for complicated models on GAT. Hardwares we used include NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB.
+   1. 16 GB GPU memory is preferred for reproducing results of GCN-based models, and at least 24 GB GPU memory for GAT-based models. Hardwares we used include NVIDIA Tesla P100-16GB and NVIDIA GeForce RTX 3090-24GB.
    2. There is an alarm that play sounds every time a model is finished training and evaluated. Please disable the code [Implementation-Functions-Alarm](#Code-Architecture) if you find it disturbing.
 
 # Code Architecture
