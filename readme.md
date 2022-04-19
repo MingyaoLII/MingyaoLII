@@ -15,7 +15,7 @@
 
 # Datasets
 
-[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) Downloaded/Stored to use in the directory `'./data'` by running the **Dataset** part in our code.
+[ogbn-arxiv](https://ogb.stanford.edu/docs/nodeprop/#ogbn-arxiv) Downloaded/Stored for use in the directory `'./data'` by running the [Code Architecture-Implementation-Dataset](#Code-Architecture).
 
 # Experiments
 
